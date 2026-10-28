@@ -1,10 +1,10 @@
 symbol             BTC/USDso:USDso
-wall clock (now)   2026-10-28T05:45:12.419Z
+wall clock (now)   2026-10-28T05:47:21.670Z
 last 1h bucket     2026-10-28T05:00:00.000Z
 ticker.statsAsOf   2026-10-28T06:00:00.000Z
-statsAsOf - now    887.6s
-naive age now-AsOf -887.6s (negative => "fresh")
+statsAsOf - now    758.3s
+naive age now-AsOf -758.3s (negative => "fresh")
 statsState         ok
-baseVolume         1478.21827 (includes the still-open bucket)
+baseVolume         1480.03308 (includes the still-open bucket)
 
-RESULT: statsAsOf is 887.6s IN THE FUTURE => a documented as-of timestamp cannot be used to detect staleness.
+RESULT: statsAsOf is 758.3s IN THE FUTURE => a documented as-of timestamp cannot be used to detect staleness.

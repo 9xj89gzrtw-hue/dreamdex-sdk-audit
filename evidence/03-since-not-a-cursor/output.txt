@@ -5,7 +5,7 @@
 
 (b) fetchOHLCV("1m", since=-2d, limit=1000)
     requested span  48.0h
-    got span        17.0h (2026-10-27T12:47:00.000Z -> 2026-10-28T05:45:00.000Z)
+    got span        17.0h (2026-10-27T12:49:00.000Z -> 2026-10-28T05:47:00.000Z)
     unreachable     31.0 h of the requested window
 
 (c) fetchFundingRateHistory(since=-7d, limit=3)
