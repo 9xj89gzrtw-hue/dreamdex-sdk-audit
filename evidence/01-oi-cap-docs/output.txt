@@ -1,0 +1,25 @@
+market      docs cap          on-chain cap      on-chain/docs
+ZRO                 250599.5           1002398        4.0000  <-- MISMATCH
+LIT                 138896.6          555586.4        4.0000  <-- MISMATCH
+VVV                 21786.14          87144.56        4.0000  <-- MISMATCH
+1000PEPE           130285600         521142400        4.0000  <-- MISMATCH
+PUMP                87993700         351974800        4.0000  <-- MISMATCH
+ZEC                      420              1680        4.0000  <-- MISMATCH
+TAO                 2185.491          2185.491        1.0000
+WLD                  1264000           5056000        4.0000  <-- MISMATCH
+NEAR                  250410           1001640        4.0000  <-- MISMATCH
+XLM                  2677780          10711120        4.0000  <-- MISMATCH
+AVAX                 66672.2          266688.8        4.0000  <-- MISMATCH
+LINK                 42643.6          170574.4        4.0000  <-- MISMATCH
+SUI                   635009           2540036        4.0000  <-- MISMATCH
+ADA                  2254678           9018712        4.0000  <-- MISMATCH
+BNB                  693.975            2775.9        4.0000  <-- MISMATCH
+DOGE                 5613590          22454360        4.0000  <-- MISMATCH
+XRP                   344632           1378528        4.0000  <-- MISMATCH
+HYPE                23812.72          47625.44        2.0000  <-- MISMATCH
+SOL                 47654.44          95308.88        2.0000  <-- MISMATCH
+ETH                3995.6125          7991.225        2.0000  <-- MISMATCH
+BTC                246.81545          493.6309        2.0000  <-- MISMATCH
+
+RESULT: 20/21 markets disagree with the published cap; observed factors: 2x, 4x.
+Only 1 market (TAO) still matches the docs.

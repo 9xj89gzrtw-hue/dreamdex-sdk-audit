@@ -1,0 +1,9 @@
+account                  0x47537e3a3ea6e9391f3b26ea45618db6828c8bff
+market                   BTC/USDso:USDso
+position size (raw)      -9810344000
+lastUpdatedTimestampNs   0 <- contract value
+UnifiedPosition.timestamp 0 <- SDK value
+UnifiedPosition.datetime  1970-01-01T00:00:00.000Z
+newest fill on this pool  2026-10-28T05:45:21.000Z (sell 0.01237)
+
+RESULT: the position last changed at 2026-10-28T05:45:21.000Z, yet both the contract field and UnifiedPosition.timestamp read 0 (1970-01-01T00:00:00.000Z).

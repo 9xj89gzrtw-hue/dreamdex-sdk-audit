@@ -1,0 +1,12 @@
+exchange.markets             30 {"binary":6,"swap":21,"spot":3}
+isPerpMarket  matches        0
+isSpotMarket  matches        0
+isBinaryMarket matches       0
+
+sample unified row: .type        = swap
+sample unified row: .marketType  = undefined
+sample raw row:     .marketType  = PERP
+isPerpMarket(unified row)        = false
+isPerpMarket(unified row.info)   = true
+
+RESULT: 0/30 markets match any of the three guards, although every row has a valid .type.

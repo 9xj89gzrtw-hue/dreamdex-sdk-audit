@@ -1,0 +1,12 @@
+currencies returned       26
+currencies with any value 0
+balance.USDso             {"free":0,"used":0,"total":0,"byChain":{"50383":{"free":0,"used":0,"total":0}}}
+
+MarginBank.getMarginAccount:
+  equity                  1423567.52 USDso
+  unlockedCollateral      1408339.87 USDso
+  lockedCollateral        133708.04 USDso
+  activePerpPools         21
+  marginStatus            Healthy
+
+RESULT: fetchBalance().USDso.total = 0 while the account holds 1423567.52 USDso of margin. A bot sizing from fetchBalance() trades zero.

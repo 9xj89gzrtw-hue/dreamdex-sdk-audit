@@ -1,0 +1,20 @@
+{
+  "name": "dreamdex-sdk-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only audit of @somnia-chain/markets-sdk 0.32.1 and the dreamDEX perps docs",
+  "type": "module",
+  "scripts": {
+    "audit": "./run-all.sh",
+    "01": "node evidence/01-oi-cap-docs/repro.mjs",
+    "02": "node evidence/02-statsasof-future/repro.mjs",
+    "03": "node evidence/03-since-not-a-cursor/repro.mjs",
+    "04": "node evidence/04-position-timestamp-zero/repro.mjs",
+    "05": "node evidence/05-balance-omits-margin/repro.mjs",
+    "06": "node evidence/06-market-guards/repro.mjs"
+  },
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1",
+    "viem": "^2.18.5"
+  }
+}
